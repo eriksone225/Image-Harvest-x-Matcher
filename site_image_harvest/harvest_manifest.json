@@ -1,0 +1,20 @@
+{
+  "finished_utc": "2026-05-23T00:35:11.819034+00:00",
+  "mode": "crawl",
+  "start_url": "https://www.erome.com/a/Jq1EKaL1",
+  "pages_seen": 1,
+  "image_records": 52,
+  "unique_image_files": 52,
+  "video_records": 1,
+  "unique_video_files": 1,
+  "harvest_videos": true,
+  "stopped_by_user": false,
+  "numbered_pages_used": false,
+  "notes": [
+    "This tool does not bypass Cloudflare or access controls.",
+    "Images/videos are saved only when the browser/session can lawfully access them.",
+    "images_metadata.csv links each image to source_url, final_url, found_on_page, dimensions, status, content type, SHA-256, and capture method.",
+    "videos_metadata.csv links each video/media file or manifest to its source page and URL.",
+    "HLS/DASH manifests may be saved, but segmented streams are not stitched or DRM-bypassed."
+  ]
+}

@@ -1,0 +1,19 @@
+playwright>=1.40
+pillow>=10.0
+ImageHash>=4.3
+numpy>=1.24
+opencv-python>=4.8
+
+# Optional, stronger face detection/cropping:
+mtcnn>=0.1.1
+tensorflow>=2.12
+
+# Optional CLIP visual similarity:
+sentence-transformers>=2.7
+torch
+torchvision
+
+# External dependency, not installed by pip:
+# FFmpeg is required for TS/M3U8 -> MP4 conversion.
+# Install from https://ffmpeg.org/ or use winget:
+# winget install Gyan.FFmpeg
